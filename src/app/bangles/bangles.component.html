@@ -1,0 +1,16 @@
+<div class="products">
+    <div *ngFor="let document of Bangles">
+        <div class="productCard" >
+            <img class="productCard_image" src="{{document.image_url}}" alt="Card image cap">
+            <div class="productCard_body">
+                <h5 class="productCard_title">{{document.title}} </h5>
+                <p class="productCard_weight">Weight:{{document.weight}} </p>
+                <p class= "product_price">Price:{{document.price}}</p>
+                <button class="productCard_button">
+                    <a href="https://wa.me/+919878822006/?text=*Title:* {{document.title}} %0a*Weight:* {{document.weight}} *Price:* {{document.weight*4680}} %0a{{document.image_url}}" target="_blank">More Details!</a>
+                  </button>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,119 @@
+.Branding {
+  display: flex;
+  flex:0.3;
+  justify-content: space-between;
+  max-width: 100vw;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(215, 209, 209);
+  font-size: 150%;
+}
+#title{
+  font-size: 44px;
+  font-weight: bold;
+}
+.btn-grp{
+  display:flex;
+  flex:0.3;
+  align-items: center;
+}
+.btn-grp>button{
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(180, 46, 34, 0.349);
+  color: white;
+  padding: 15px 32px;
+  outline:none;
+  border:none;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  height:70px;
+  margin:20px;
+  padding:20px;
+}
+.Branding>div{
+  padding:20px;
+  margin:20px;
+}
+.locality {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(215, 209, 209);
+  transform: translate(0,-20% );
+}
+
+.image {
+  scroll-behavior: smooth;
+  resize:none;
+  display: flex;
+  flex:1;
+  flex-direction:column;
+  max-width:100vw;
+  height:100vh;
+  background:url('https://wallpaperaccess.com/full/3713543.jpg') no-repeat center center/cover;
+}
+
+.centered {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  color: rgb(215, 209, 209);
+  position: absolute;
+  bottom:0px;
+  align-items: center;
+  font-size:23px;
+  margin:20px;
+}
+.btn-grp>button>a{
+  text-decoration: none;
+}
+.btn-grp>button:hover {
+  color: red;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%);
+    background-color: white;
+}
+.pro-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin:20px;
+}
+.detail {
+  font-family: Cursive;
+  font-weight: bold;
+}
+.lower-page {
+  display: flex;
+  flex:1;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+}
+.lower-page>div{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lower-page-image {
+  width: 240px;
+  height: 250px;
+  border-radius: 60%;
+}
+.details {
+  font-family: Georgia;
+}
+
+.products {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+}

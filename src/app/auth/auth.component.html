@@ -1,0 +1,16 @@
+<div class="content">
+    <h1>Register Here </h1>
+
+    <form [formGroup]="authForm" (ngSubmit)="registerUser()">
+        <h1>Register</h1>
+        <label for="email" class="form-label">Email</label>
+        <input type="text" class="form-control" id="email" placeholder="john@example.com" formControlName="email">
+        <br>
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Min 6 Characters" formControlName="password">
+        <br>
+        <!-- <button (click)="registerUser()">Register</button> -->
+        <button type="submit" class="btn btn-dark">Register</button>
+    </form> <br>
+
+</div>

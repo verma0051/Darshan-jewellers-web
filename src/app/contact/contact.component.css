@@ -1,0 +1,32 @@
+.container{
+    display:flex;
+    flex:1;
+    flex-direction:'column';
+    
+}
+.location{
+    background-attachment: var(#480b0654);
+    max-width:100vw;
+    height:90vh;
+    margin-left: 2vw;
+    margin-top: .6vw;
+}
+
+.front{
+    margin-left: .5vw;
+    margin-top: .5vw;
+}
+
+.card-body{
+    position: absolute;
+    color: honeydew;
+    top:81vh;
+    right: 0%;
+    background-color: rgba(28, 26, 26, 0.783);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.68);
+    padding: 10px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+
+}

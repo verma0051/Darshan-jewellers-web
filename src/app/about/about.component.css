@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.card {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  margin: 16px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  font-family: initial;
+  color: rgb(7, 7, 7);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 16px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+.why-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4aa50a4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.why-section > div {
+  transform: translate(-40%, 0%);
+}
+.why-image {
+  width: auto;
+  height: 100vh;
+}
+.title{
+  color: rgb(70, 56, 54);
+}
+.why-card {
+  position: absolute;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  top: 50%;
+  right: 30%;
+  transform: translate(100%, -50%);
+  width: 500px;
+  backdrop-filter: blur(15px) saturate(200%);
+  -webkit-backdrop-filter: blur(12px) saturate(200%);
+  background-color: rgba(153, 140, 140, 0.666);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.68);
+  padding: 30px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}
+.why-card > p {
+  text-transform: justify;
+}
+.owner1 {
+  position: absolute;
+  top: 105%;
+  left: 2%;
+  height: 300px;
+  width: 260px;
+  border-radius: 50%;
+}
+
+.details {
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: cursive;
+  margin-top: 240%;
+  margin-left: 2%;
+  width: auto;
+}
+
+.owner2 {
+  position: absolute;
+  top: 105%;
+  right: 40%;
+  height: 300px;
+  width: 260px;
+  border-radius: 50%;
+}
+
+.details1 {
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: cursive;
+  margin-top: 240%;
+  margin-left: 15%;
+  width: auto;
+}
+
+.owner3{
+  position: absolute;
+  top: 105%;
+  right: -5%;
+  height: 300px;
+  width: 260px;
+  border-radius: 50%; 
+}
+
+.details2{
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: cursive;
+  margin-top: 240%;
+  margin-left: -27%;
+  width: auto;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
